@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # 파일복사
 COPY . .
 
-# 컨테이너 시작 시 실행 할 명령어 설정
+# # 컨테이너 시작 시 실행 할 명령어 설정
 
-CMD ["python", "app.py"]
+# CMD ["python", "app.py"]
 
